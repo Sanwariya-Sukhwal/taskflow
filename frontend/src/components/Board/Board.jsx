@@ -1,10 +1,17 @@
-import React from 'react';
-import './Board.css';
+import Column from "../Column/Column";
+import "./Board.css";
 
-const Board = () => {
+const Board = ({ board, onTaskChanged }) => {
   return (
-    <div className="Board">
-      {/* TODO: implement Board */}
+    <div className="board">
+      {board.columns.map((column) => (
+        <Column
+          key={column.id}
+          column={column}
+          columns={board.columns}
+          onTaskChanged={onTaskChanged}
+        />
+      ))}
     </div>
   );
 };

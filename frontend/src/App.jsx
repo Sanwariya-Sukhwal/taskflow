@@ -1,13 +1,7 @@
-import React from 'react';
-import TaskBoard from './pages/TaskBoard/TaskBoard';
-import './App.css';
+import TaskBoard from "./pages/TaskBoard/TaskBoard";
 
 function App() {
-  return (
-    <div className="App">
-      <TaskBoard />
-    </div>
-  );
+  return <TaskBoard />;
 }
 
 export default App;
