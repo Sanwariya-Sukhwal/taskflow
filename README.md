@@ -1,3 +1,11 @@
+## Live Demo
+
+**Frontend:** https://taskflow-seven-pied.vercel.app/
+
+**Backend API:** https://taskflow-c8jm.onrender.com/
+
+**GitHub:** https://github.com/Sanwariya-Sukhwal/taskflow
+
 # TaskFlow
 
 A simple full-stack task board for small teams, inspired by Trello. Create, edit, delete, move, and filter tasks across columns — all data persisted in PostgreSQL.
@@ -94,7 +102,7 @@ Uses raw SQL (no ORM) — e.g. `LEFT JOIN` + `GROUP BY` to count tasks per colum
 
 ## Backend API
 
-Base URL: `http://localhost:5000/api`
+Base URL: `https://taskflow-c8jm.onrender.com/api`
 
 | Method | Endpoint | Purpose |
 |---|---|---|
